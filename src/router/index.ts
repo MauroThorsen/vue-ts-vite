@@ -4,6 +4,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Login',
+    // eslint-disable-next-line import/no-unresolved
     component: () => import(/* webpackChunkName: "home" */ '@/views/login/index.vue')
   }
 ]
